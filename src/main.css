@@ -1,0 +1,26 @@
+.dark-mode {
+	background-color: #333;
+	color: white;
+}
+
+.dark-mode .form-control {
+	background-color: #555;
+	color: white;
+	border-color: #777;
+}
+
+.dark-mode .list-group-item {
+	background-color: #444;
+	color: white;
+	border-color: #666;
+}
+
+.dark-mode .btn-outline-secondary {
+	border-color: #888;
+	color: #ddd;
+}
+
+.dark-mode .btn-danger {
+	background-color: #a00;
+	color: white;
+}
