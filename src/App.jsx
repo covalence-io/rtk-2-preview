@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addUser, deleteUser, fetchUsers } from './features/usersSlice';
+import { addUser, deleteUser, fetchUsers, getUsers } from './features/usersSlice';
 
 function Users() {
 	const [newUserName, setNewUserName] = useState('');
-	const users = useSelector(state => state.users.users);
+	const users = useSelector(getUsers);
 	const dispatch = useDispatch();
 
 	const handleAddUser = () => {
